@@ -33,10 +33,48 @@
   src: url(../fonts/JosefinSans-Thin.ttf);
   font-weight: 100;
 }
-body #container {
-  width: 30px;
-  height: 39px;
-  background-color: red;
+body html {
+  font-size: 10px;
+}
+body header {
+  background: url(../imgs/hero-img.jpg);
+  overflow: hidden;
+}
+body header nav {
+  padding-top: 3rem;
+}
+body header nav .nav-top {
+  display: none;
+}
+body header nav .nav-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 2.5rem;
+  margin: 0 1.6rem 11.8rem;
+  border-radius: 0.3rem;
+  padding: 0 0.2rem;
+}
+body header nav .nav-bottom :nth-of-type(5) {
+  position: relative;
+  left: 1rem;
+}
+body header nav .nav-bottom .nav-bottom-special {
+  font-family: Josefin Sans;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  padding: 0.8rem 0.6rem;
+  background-color: #5956e9;
+  border-radius: 0.3rem;
+}
+body header nav .nav-bottom :nth-of-type(2),
+body header nav .nav-bottom :nth-of-type(3),
+body header nav .nav-bottom :nth-of-type(4),
+body header nav .nav-bottom :nth-of-type(6),
+body header nav .nav-bottom :nth-of-type(7) {
+  display: none;
 }
 
 body * {

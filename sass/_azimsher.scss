@@ -1,0 +1,48 @@
+@mixin azimsher {
+  $royal-blue: #5956e9;
+  html {
+    font-size: 10px;
+  }
+
+  header {
+    background: url(../imgs/hero-img.jpg);
+    // background-color: blue;
+    overflow: hidden;
+    nav {
+      padding-top: 3rem;
+      .nav-top {
+        display: none;
+      }
+      .nav-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        height: 2.5rem;
+        margin: 0 1.6rem 11.8rem;
+        border-radius: 0.3rem;
+        padding: 0 0.2rem;
+        :nth-of-type(5) {
+          position: relative;
+          left: 1rem;
+        }
+        .nav-bottom-special {
+          font-family: Josefin Sans;
+          font-size: 10px;
+          font-weight: 600;
+          color: #fff;
+          padding: 0.8rem 0.6rem;
+          background-color: $royal-blue;
+          border-radius: 0.3rem;
+        }
+        :nth-of-type(2),
+        :nth-of-type(3),
+        :nth-of-type(4),
+        :nth-of-type(6),
+        :nth-of-type(7) {
+          display: none;
+        }
+      }
+    }
+  }
+}
