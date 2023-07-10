@@ -1,0 +1,25 @@
+@use "../sass/asqar.scss" as *;
+@use "../sass/azimsher.scss" as *;
+@use "../sass/javohir.scss" as *;
+@use "../sass/uktam.scss" as *;
+@use "../sass/global.scss" as *;
+
+body {
+  @include asqar;
+}
+
+body {
+  @include uktam;
+}
+
+body {
+  @include azimsher;
+}
+
+body {
+  @include javohir;
+}
+
+body {
+  @include global;
+}

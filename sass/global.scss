@@ -1,0 +1,16 @@
+@mixin global {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+  }
+
+  #container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
