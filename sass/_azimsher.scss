@@ -82,10 +82,15 @@
       display: flex;
       flex-direction: column;
       .offer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         padding: 20px 18px;
         min-width: 323px;
         background-color: $white;
         margin-left: 16px;
+
+        box-shadow: rgb(0, 0, 10);
         h1 {
           font-family: Josefin Sans;
           font-size: 25px;
@@ -108,6 +113,7 @@
           line-height: 30px;
           text-transform: uppercase;
           color: $black;
+          margin-top: 50px;
         }
       }
       .hero-img {
@@ -148,8 +154,7 @@
       justify-content: center;
       align-items: center;
       .about-left {
-        max-width: 238px;
-        max-height: 324px;
+        transform: scale(1.1);
       }
       .about-right {
         display: flex;
@@ -165,6 +170,9 @@
           border-radius: 10px;
 
           .about-boxes-text {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
             h3 {
               color: $black;
 
@@ -237,6 +245,36 @@
       }
       .hero {
         justify-content: space-around;
+        .offer {
+          width: 560px;
+          height: 432px;
+          h1 {
+            font-size: 48.83px;
+            font-weight: 700;
+            line-height: 130%;
+          }
+          p {
+            font-size: 20px;
+          }
+          a {
+            font-size: 25px;
+          }
+          img {
+            width: 314px;
+          }
+        }
+      }
+    }
+    #About-Our-App {
+      .about-sides {
+        gap: 180px;
+        .about-left {
+          width: 586px;
+          height: 726px;
+        }
+        .about-right {
+          max-width: 560px;
+        }
       }
     }
   }

@@ -106,7 +106,7 @@ body #App-features #container .item p {
 }
 body #App-features #container .App-features-middle {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 60px;
   gap: 20px;
 }
@@ -380,10 +380,10 @@ body #Checkout-Our-App-Interface-Look .bt-left::before {
   transform: rotateZ(-135deg) translateX(-50%);
 }
 body #Checkout-Our-App-Interface-Look .bt-left {
-  left: 10%;
+  left: 3%;
 }
 body #Checkout-Our-App-Interface-Look .bt-right {
-  right: 10%;
+  right: 3%;
 }
 body #Checkout-Our-App-Interface-Look .bt-left:hover,
 body #Checkout-Our-App-Interface-Look .bt-right:hover {
@@ -423,19 +423,19 @@ body #Checkout-Our-App-Interface-Look .swiper img {
      object-fit: fill;
 }
 body #Checkout-Our-App-Interface-Look .swiper-1 {
-  transform: translate3d(-576px, 0, -288px);
+  transform: translate3d(-800px, 0, -300px);
 }
 body #Checkout-Our-App-Interface-Look .swiper-2 {
-  transform: translate3d(-288px, 0, -144px);
+  transform: translate3d(-400px, 0, -150px);
 }
 body #Checkout-Our-App-Interface-Look .swiper-3 {
   transform: translate3d(0, 0, 0);
 }
 body #Checkout-Our-App-Interface-Look .swiper-4 {
-  transform: translate3d(288px, 0, -144px);
+  transform: translate3d(400px, 0, -150px);
 }
 body #Checkout-Our-App-Interface-Look .swiper-5 {
-  transform: translate3d(576px, 0, -288px);
+  transform: translate3d(800px, 0, -300px);
 }
 body #Our-Happy-Customers {
   background-image: url(../imgs/background-image.png);
@@ -654,10 +654,14 @@ body header .hero {
   flex-direction: column;
 }
 body header .hero .offer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 20px 18px;
   min-width: 323px;
   background-color: #fff;
   margin-left: 16px;
+  box-shadow: rgb(0, 0, 10);
 }
 body header .hero .offer h1 {
   font-family: Josefin Sans;
@@ -681,6 +685,7 @@ body header .hero .offer a {
   line-height: 30px;
   text-transform: uppercase;
   color: #232233;
+  margin-top: 50px;
 }
 body header .hero .hero-img {
   max-width: 466px;
@@ -718,8 +723,7 @@ body #About-Our-App .about-sides {
   align-items: center;
 }
 body #About-Our-App .about-sides .about-left {
-  max-width: 238px;
-  max-height: 324px;
+  transform: scale(1.1);
 }
 body #About-Our-App .about-sides .about-right {
   display: flex;
@@ -734,6 +738,11 @@ body #About-Our-App .about-sides .about-right .about-boxes-in {
   padding: 18px;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+body #About-Our-App .about-sides .about-right .about-boxes-in .about-boxes-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 body #About-Our-App .about-sides .about-right .about-boxes-in .about-boxes-text h3 {
   color: #232233;
@@ -793,6 +802,34 @@ body #About-Our-App .about-sides .about-right .about-boxes-in .about-boxes-text 
   }
   body header .hero {
     justify-content: space-around;
+  }
+  body header .hero .offer {
+    width: 560px;
+    height: 432px;
+  }
+  body header .hero .offer h1 {
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  body header .hero .offer p {
+    font-size: 20px;
+  }
+  body header .hero .offer a {
+    font-size: 25px;
+  }
+  body header .hero .offer img {
+    width: 314px;
+  }
+  body #About-Our-App .about-sides {
+    gap: 180px;
+  }
+  body #About-Our-App .about-sides .about-left {
+    width: 586px;
+    height: 726px;
+  }
+  body #About-Our-App .about-sides .about-right {
+    max-width: 560px;
   }
 }
 
@@ -1110,6 +1147,9 @@ body #Our-reative-team #container .cards .card .icons .line {
   }
 }
 
+body {
+  margin: 0;
+}
 body * {
   margin: 0;
   padding: 0;
