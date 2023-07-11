@@ -33,10 +33,319 @@
   src: url(../fonts/JosefinSans-Thin.ttf);
   font-weight: 100;
 }
-body #container {
-  width: 30px;
-  height: 39px;
-  background-color: red;
+body #Download-AppNow #container {
+  overflow-x: hidden;
+  font-family: Josefin Sans;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 138px;
+}
+body #Download-AppNow #container .hero {
+  padding-top: 80px;
+  padding-bottom: 172px;
+  display: flex;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  align-items: center;
+}
+body #Download-AppNow #container .hero .hero-left h1 {
+  color: #232233;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 47.25px;
+  text-transform: uppercase;
+}
+body #Download-AppNow #container .hero .hero-left p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: #6c6c72;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 570px;
+  line-height: 24px;
+}
+body #Download-AppNow #container .hero .hero-left .hero-images {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+body #Download-AppNow #container .hero .hero-left .hero-bottom-left {
+  display: flex;
+  margin-top: 59px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+body #Download-AppNow #container .hero .hero-left .hero-bottom-left .brand {
+  border-radius: 10px;
+  background: #5851ea;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+body #Download-AppNow #container .hero .hero-left .hero-bottom-left .brand:nth-last-of-type(2) {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body #Download-AppNow #container .hero .hero-left .hero-bottom-left .brand:nth-of-type(1) {
+  padding: 30px 22px 20px 20px;
+}
+body #Download-AppNow #container .hero .hero-left .hero-bottom-left .brand i {
+  scale: 2;
+}
+body #Download-AppNow #container .hero .hero-left .hero-bottom-left .brand h5 {
+  margin-top: 28px;
+  margin-bottom: 18px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+body #Download-AppNow #container .hero .hero-left .hero-bottom-left .brand h4 {
+  color: #fff;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1244px) {
+  body #Download-AppNow .hero h1 {
+    max-width: 300px;
+  }
+  body #Download-AppNow .hero p {
+    max-width: 380px;
+  }
+  body #Download-AppNow .hero .hero-right {
+    scale: 0.8;
+    margin-left: -70px;
+  }
+  body #Download-AppNow .hero .hero-images {
+    scale: 0.93;
+    margin-left: -14px;
+  }
+  body #Download-AppNow .hero .hero-bottom-left {
+    scale: 0.9;
+    margin-left: -20px;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  body #Download-AppNow .hero .hero-right {
+    margin-left: -150px;
+    scale: 0.7;
+  }
+  body #Download-AppNow .hero .hero-bottom-left {
+    scale: 0.89;
+    transform: scaleY(0.8);
+    transform: translateY(-40px);
+    margin-left: -20px;
+  }
+  body #Download-AppNow .hero .hero-bottom-left p {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 980px) {
+  body #Download-AppNow .hero {
+    flex-direction: column;
+  }
+  body #Download-AppNow .hero h1 {
+    max-width: 1200px;
+  }
+  body #Download-AppNow .hero p {
+    max-width: 280px;
+  }
+  body #Download-AppNow .hero .hero-right {
+    scale: 0.9;
+    margin-left: 10px;
+  }
+  body #Download-AppNow .hero h1 {
+    max-width: 288px;
+    line-height: 47.25px;
+  }
+  body #Download-AppNow .hero p {
+    max-width: 329px;
+  }
+}
+body #how-to-use-the-app-perfectly #container {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  color: white;
+  text-align: center;
+}
+body #how-to-use-the-app-perfectly #container .how-to-use-hero {
+  background: url(../imgs/background-image.png);
+  padding-top: 4px;
+  position: relative;
+  padding-bottom: 200px;
+}
+body #how-to-use-the-app-perfectly #container .how-to-use-hero h1 {
+  margin-top: 120px;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47.25px;
+  text-transform: uppercase;
+}
+body #how-to-use-the-app-perfectly #container .how-to-use-hero p {
+  margin: 23px auto 0px auto;
+  max-width: 601px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body #how-to-use-the-app-perfectly #container img {
+  transform: translateY(-30px);
+  margin-top: -200px;
+  cursor: pointer;
+}
+@media screen and (max-width: 980px) {
+  body #how-to-use-the-app-perfectly .how-to-use-hero {
+    background-size: cover;
+    background-position: center;
+    max-width: 900px;
+  }
+  body #how-to-use-the-app-perfectly .how-to-use-hero h1 {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+  body #how-to-use-the-app-perfectly .how-to-use-hero p {
+    scale: 0.8;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  body #how-to-use-the-app-perfectly .how-to-use-hero img {
+    transform: scale(0.6);
+    display: flex;
+    justify-content: center;
+    transform: translateY(-70px);
+  }
+}
+@media screen and (max-width: 800px) {
+  body #how-to-use-the-app-perfectly img {
+    transform: scale(0.5);
+    margin-left: -100px;
+  }
+}
+body #Our-reative-team #container {
+  margin: 0 auto;
+  max-width: 1440px;
+  text-align: center;
+  padding: 0 135px 120px 135px;
+}
+body #Our-reative-team #container h1 {
+  text-align: center;
+  color: #232233;
+  font-size: 51.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47.25px;
+  text-transform: uppercase;
+}
+body #Our-reative-team #container .pi {
+  text-align: center;
+  color: #6c6c72;
+  max-width: 601px;
+  margin: 25px auto 60px auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body #Our-reative-team #container .cards {
+  -moz-column-gap: 34px;
+       column-gap: 34px;
+  display: flex;
+  align-items: center;
+}
+body #Our-reative-team #container .cards .card {
+  padding: 29px 26px 53px 22px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+body #Our-reative-team #container .cards .card img {
+  border: 5px solid #5956e9;
+  border-radius: 50%;
+  padding: 10px;
+}
+body #Our-reative-team #container .cards .card h4 {
+  margin-top: 46px;
+  color: #232233;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 47.25px;
+  text-transform: uppercase;
+}
+body #Our-reative-team #container .cards .card h5 {
+  color: #6c6c72;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+body #Our-reative-team #container .cards .card p {
+  color: #6c6c72;
+  margin: 17px auto 41px auto;
+  max-width: 326px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+body #Our-reative-team #container .cards .card .icons {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 31px;
+       column-gap: 31px;
+}
+body #Our-reative-team #container .cards .card .icons i {
+  scale: 1.2;
+}
+body #Our-reative-team #container .cards .card .icons i:hover {
+  color: #5956e9;
+  cursor: pointer;
+}
+body #Our-reative-team #container .cards .card .icons .line {
+  width: 1px;
+  height: 23px;
+  background-color: #6c6c72;
+}
+@media screen and (max-width: 1190px) {
+  body #Our-reative-team .cards {
+    margin-top: -60px;
+  }
+  body #Our-reative-team .cards .card {
+    scale: 0.8;
+  }
+}
+@media screen and (max-width: 1100px) {
+  body #Our-reative-team .cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  body #Our-reative-team .cards .last {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  body #Our-reative-team h1 {
+    max-width: 280px;
+  }
+  body #Our-reative-team p {
+    max-width: 300px;
+  }
+  body #Our-reative-team .cards {
+    flex-direction: column;
+  }
+  body #Our-reative-team .cards .last {
+    display: inline-block;
+  }
 }
 
 body * {
