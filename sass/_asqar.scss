@@ -1,7 +1,4 @@
 @mixin asqar {
-
-  #container {
-
   #App-features {
     background-image: url(../imgs/Rectangle.png);
     #container {
@@ -113,8 +110,6 @@
           }
         }
       }
-
-      
     }
   }
 
@@ -281,15 +276,4 @@
       }
     }
   }
-
-  @media screen  and (min-width: 1200px){
-    #App-features{
-      #container{
-        h1{
-        font-size: 25.25px;
-          
-        }
-      }
-    }
-  } 
-}}
+}
