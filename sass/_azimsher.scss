@@ -1,25 +1,46 @@
 @mixin azimsher {
   $royal-blue: #5956e9;
-  html {
-    font-size: 10px;
-  }
+  $gray: #6c6c72;
+  $black: #232233;
+  $white: #fff;
 
   header {
     background: url(../imgs/hero-img.jpg);
-    // background-color: blue;
     overflow: hidden;
     nav {
       padding-top: 3rem;
       .nav-top {
         display: none;
+        .nav-top-left {
+          display: flex;
+          align-items: center;
+
+          gap: 48px;
+          a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: $white;
+
+            font-family: Josefin Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+        .nav-top-right {
+          display: flex;
+          gap: 30px;
+        }
       }
       .nav-bottom {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #fff;
+        background-color: $white;
         height: 2.5rem;
-        margin: 0 1.6rem 11.8rem;
+        margin: 0 0 11.8rem;
         border-radius: 0.3rem;
         padding: 0 0.2rem;
         :nth-of-type(5) {
@@ -28,10 +49,12 @@
         }
         .nav-bottom-special {
           font-family: Josefin Sans;
-          font-size: 10px;
-          font-weight: 600;
-          color: #fff;
-          padding: 0.8rem 0.6rem;
+          a {
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+          }
+          padding: 0.6rem 0.6rem;
           background-color: $royal-blue;
           border-radius: 0.3rem;
         }
@@ -41,7 +64,176 @@
         :nth-of-type(6),
         :nth-of-type(7) {
           display: none;
+          font-family: Josefin Sans;
+          font-size: 14px;
+          font-weight: 600;
+          a {
+            color: $black;
+          }
+          padding: 0.8rem 0.6rem;
+          border-radius: 0.3rem;
         }
+      }
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      .offer {
+        padding: 20px 18px;
+        min-width: 323px;
+        background-color: $white;
+        margin-left: 16px;
+        h1 {
+          font-family: Josefin Sans;
+          font-size: 25px;
+          font-weight: 600;
+          line-height: 37.5px;
+          text-transform: uppercase;
+          color: $royal-blue;
+        }
+        p {
+          font-family: Josefin Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          color: $gray;
+        }
+        a {
+          font-family: Josefin Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+          text-transform: uppercase;
+          color: $black;
+        }
+      }
+      .hero-img {
+        max-width: 466px;
+        max-width: 510px;
+        position: relative;
+        left: 15%;
+        padding: 60px 0 120px;
+      }
+    }
+  }
+  #About-Our-App {
+    .about-start {
+      text-align: center;
+      padding-top: 60px;
+      h2 {
+        font-family: Josefin Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-transform: uppercase;
+        color: $black;
+      }
+      p {
+        font-family: Josefin Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: $gray;
+        padding: 18px 51px 40px;
+      }
+    }
+    .about-sides {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .about-left {
+        max-width: 238px;
+        max-height: 324px;
+      }
+      .about-right {
+        display: flex;
+        flex-direction: column;
+        padding: 75px 0 92px;
+        gap: 20px;
+        .about-boxes-in {
+          display: flex;
+          align-items: start;
+          gap: 20px;
+          padding: 18px;
+          box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+
+          .about-boxes-text {
+            h3 {
+              color: $black;
+
+              font-family: Josefin Sans;
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 30px;
+              text-transform: uppercase;
+            }
+            p {
+              color: $gray;
+
+              font-family: Josefin Sans;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    header {
+      padding: 40px;
+      nav {
+        padding: 0;
+        .nav-top {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 35px;
+        }
+      }
+      .hero {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .offer {
+          width: 456px;
+          height: 358px;
+        }
+      }
+    }
+  }
+  #About-Our-App {
+    padding: 40px;
+
+    .about-sides {
+      flex-direction: row;
+      gap: 60px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    header {
+      nav {
+        .nav-bottom {
+          :nth-of-type(2),
+          :nth-of-type(3),
+          :nth-of-type(4),
+          :nth-of-type(6),
+          :nth-of-type(7) {
+            display: block;
+          }
+          :nth-of-type(5) {
+            left: 0;
+          }
+        }
+      }
+      .hero {
+        justify-content: space-around;
       }
     }
   }
