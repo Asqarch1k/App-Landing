@@ -101,12 +101,176 @@
           display: flex;
           flex-direction: column;
           gap: 300px;
-          padding-top: 50px;  
+          padding-top: 50px;
 
           .App-features-middle {
             display: flex;
             flex-direction: column;
             text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  #Our-recent-blog {
+    .Our-recent-blog-top {
+      h1 {
+        color: var(--black, #232233);
+        font-family: Josefin Sans;
+        font-size: 31.25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47.25px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 120px;
+        margin-bottom: 23px;
+      }
+      p {
+        color: var(--gray-paragraph, #6c6c72);
+        text-align: center;
+        font-family: Josefin Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0 auto;
+        width: 601px;
+      }
+    }
+    .main_box {
+      display: flex;
+      // justify-content: space-between;
+      gap: 30px;
+      padding-bottom: 248px;
+      padding-top: 60px;
+      padding-left: 100px;
+
+      .blog_item {
+        border-radius: 10px;
+        background: var(--white, #fff);
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+        padding-bottom: 36px;
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+        h3 {
+          color: var(--black, #232233);
+          font-family: Josefin Sans;
+          width: 334px;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 30px;
+          text-transform: uppercase;
+          padding: 40px 18px 10px 18px;
+        }
+        p {
+          color: var(--gray-paragraph, #6c6c72);
+          font-family: Josefin Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          width: 334px;
+          padding: 0 18px 28px 18px;
+        }
+
+        a {
+          color: #5851ea;
+          font-family: Josefin Sans;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 130%;
+          text-decoration-line: underline;
+          text-transform: uppercase;
+          padding-left: 18px;
+          margin-bottom: 36px;
+        }
+      }
+    }
+  }
+
+  #footer {
+    position: relative;
+    background: var(--black, #232233);
+    padding-top: 235px;
+    #container {
+      .footer-sectin {
+        color: var(--white, #fff);
+        font-family: Josefin Sans;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        padding-bottom: 18px;
+      }
+      .footer-main-sectin-2 {
+        position: absolute;
+        border: 3px solid whitesmoke;
+        // top: -133px;
+        // left: 135px;
+        left: 50%;
+        top: -40%;
+        transform: translate(-50%, 60%);
+        width: 1170px;
+        height: 230px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: var(--white, #fff);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        h6 {
+          color: var(--black, #232233);
+          font-family: Josefin Sans;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 37.5px;
+          text-transform: lowercase;
+        }
+      }
+      .footer-main {
+        display: flex;
+        justify-content: space-around;
+        .footer-main-section {
+          h2 {
+            color: red;
+            font-family: Josefin Sans;
+            font-size: 31.25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 47.25px;
+            text-transform: uppercase;
+            a {
+              color: var(--white, #fff);
+            }
+          }
+          input {
+            padding: 13px 18px;
+            margin-top: 33px;
+          }
+
+          p {
+            color: var(--white, #fff);
+            width: 334px;
+            /* H7-16px (Paragraph Text) */
+            font-family: Josefin Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+          .social {
+            ul {
+              display: flex;
+              gap: 30px;
+            }
           }
         }
       }
