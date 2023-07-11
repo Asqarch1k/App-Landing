@@ -212,8 +212,11 @@
       .footer-main-sectin-2 {
         position: absolute;
         border: 3px solid whitesmoke;
-        top: -133px;
-        left: 135px;
+        // top: -133px;
+        // left: 135px;
+        left: 50%;
+        top: -40%;
+        transform: translate(-50%, 60%);
         width: 1170px;
         height: 230px;
         flex-shrink: 0;
