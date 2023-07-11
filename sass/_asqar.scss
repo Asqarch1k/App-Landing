@@ -1,0 +1,28 @@
+@mixin asqar {
+  #App-features {
+    background-image: url(../imgs/Rectangle.png);
+    #container {
+      h1 {
+        color: var(--white, #fff);
+        font-family: Josefin Sans;
+        font-size: 31.25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47.25px;
+        text-align: center;
+      }
+
+      p {
+        color: var(--white, #fff);
+        font-family: Josefin Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        width: 601px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
+}

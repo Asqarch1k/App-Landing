@@ -33,10 +33,28 @@
   src: url(../fonts/JosefinSans-Thin.ttf);
   font-weight: 100;
 }
-body #container {
-  width: 30px;
-  height: 39px;
-  background-color: red;
+body #App-features {
+  background-image: url(../imgs/Rectangle.png);
+}
+body #App-features #container h1 {
+  color: var(--white, #fff);
+  font-family: Josefin Sans;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47.25px;
+  text-align: center;
+}
+body #App-features #container p {
+  color: var(--white, #fff);
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 601px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 body * {
