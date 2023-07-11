@@ -129,6 +129,152 @@ body #App-features #container .App-features-middle .App-features-middle-right .A
   flex-direction: column;
   text-align: left;
 }
+body #Our-recent-blog .Our-recent-blog-top h1 {
+  color: var(--black, #232233);
+  font-family: Josefin Sans;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47.25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 23px;
+}
+body #Our-recent-blog .Our-recent-blog-top p {
+  color: var(--gray-paragraph, #6c6c72);
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+  width: 601px;
+}
+body #Our-recent-blog .main_box {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 248px;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+body #Our-recent-blog .main_box .blog_item {
+  border-radius: 10px;
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-bottom: 36px;
+}
+body #Our-recent-blog .main_box .blog_item img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+body #Our-recent-blog .main_box .blog_item h3 {
+  color: var(--black, #232233);
+  font-family: Josefin Sans;
+  width: 334px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 40px 18px 10px 18px;
+}
+body #Our-recent-blog .main_box .blog_item p {
+  color: var(--gray-paragraph, #6c6c72);
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 334px;
+  padding: 0 18px 28px 18px;
+}
+body #Our-recent-blog .main_box .blog_item a {
+  color: #5851ea;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  padding-left: 18px;
+  margin-bottom: 36px;
+}
+body #footer {
+  position: relative;
+  background: var(--black, #232233);
+  padding-top: 235px;
+}
+body #footer #container .footer-sectin {
+  color: var(--white, #fff);
+  font-family: Josefin Sans;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 18px;
+}
+body #footer #container .footer-main-sectin-2 {
+  position: absolute;
+  border: 3px solid whitesmoke;
+  top: -133px;
+  left: 135px;
+  width: 1170px;
+  height: 230px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--white, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body #footer #container .footer-main-sectin-2 h6 {
+  color: var(--black, #232233);
+  font-family: Josefin Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-transform: lowercase;
+}
+body #footer #container .footer-main {
+  display: flex;
+  justify-content: space-around;
+}
+body #footer #container .footer-main .footer-main-section h2 {
+  color: red;
+  font-family: Josefin Sans;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47.25px;
+  text-transform: uppercase;
+}
+body #footer #container .footer-main .footer-main-section h2 a {
+  color: var(--white, #fff);
+}
+body #footer #container .footer-main .footer-main-section input {
+  padding: 13px 18px;
+  margin-top: 33px;
+}
+body #footer #container .footer-main .footer-main-section p {
+  color: var(--white, #fff);
+  width: 334px;
+  /* H7-16px (Paragraph Text) */
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+body #footer #container .footer-main .footer-main-section .social ul {
+  display: flex;
+  gap: 30px;
+}
 
 body * {
   margin: 0;
