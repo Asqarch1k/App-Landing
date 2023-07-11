@@ -33,6 +33,27 @@
   src: url(../fonts/JosefinSans-Thin.ttf);
   font-weight: 100;
 }
+
+body header {
+  background: url(../imgs/hero-img.jpg);
+  overflow: hidden;
+}
+body header nav {
+  padding-top: 3rem;
+}
+body header nav .nav-top {
+  display: none;
+}
+body header nav .nav-top .nav-top-left {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+body header nav .nav-top .nav-top-left a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
 body #App-features {
   background-image: url(../imgs/Rectangle.png);
 }
@@ -94,11 +115,108 @@ body #App-features #container .item h3 {
 }
 body #App-features #container .item p {
   color: var(--white, #fff);
+
   font-family: Josefin Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+
+}
+body header nav .nav-top .nav-top-right {
+  display: flex;
+  gap: 30px;
+}
+body header nav .nav-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 2.5rem;
+  margin: 0 0 11.8rem;
+  border-radius: 0.3rem;
+  padding: 0 0.2rem;
+}
+body header nav .nav-bottom :nth-of-type(5) {
+  position: relative;
+  left: 1rem;
+}
+body header nav .nav-bottom .nav-bottom-special {
+  font-family: Josefin Sans;
+  padding: 0.6rem 0.6rem;
+  background-color: #5956e9;
+  border-radius: 0.3rem;
+}
+body header nav .nav-bottom .nav-bottom-special a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+body header nav .nav-bottom :nth-of-type(2),
+body header nav .nav-bottom :nth-of-type(3),
+body header nav .nav-bottom :nth-of-type(4),
+body header nav .nav-bottom :nth-of-type(6),
+body header nav .nav-bottom :nth-of-type(7) {
+  display: none;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.8rem 0.6rem;
+  border-radius: 0.3rem;
+}
+body header nav .nav-bottom :nth-of-type(2) a,
+body header nav .nav-bottom :nth-of-type(3) a,
+body header nav .nav-bottom :nth-of-type(4) a,
+body header nav .nav-bottom :nth-of-type(6) a,
+body header nav .nav-bottom :nth-of-type(7) a {
+  color: #232233;
+}
+body header .hero {
+  display: flex;
+  flex-direction: column;
+}
+body header .hero .offer {
+  padding: 20px 18px;
+  min-width: 323px;
+  background-color: #fff;
+  margin-left: 16px;
+}
+body header .hero .offer h1 {
+  font-family: Josefin Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-transform: uppercase;
+  color: #5956e9;
+}
+body header .hero .offer p {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6c6c72;
+}
+body header .hero .offer a {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #232233;
+}
+body header .hero .hero-img {
+  max-width: 466px;
+  max-width: 510px;
+  position: relative;
+  left: 15%;
+  padding: 60px 0 120px;
+}
+body #About-Our-App .about-start {
+  text-align: center;
+  padding-top: 60px;
+}
+body #About-Our-App .about-start h2 {
+
   width: 297px;
 }
 body #App-features #container .App-features-middle {
@@ -235,11 +353,18 @@ body #footer #container .footer-main-sectin-2 {
 }
 body #footer #container .footer-main-sectin-2 h6 {
   color: var(--black, #232233);
+
   font-family: Josefin Sans;
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
   line-height: 37.5px;
+
+  text-transform: uppercase;
+  color: #232233;
+}
+body #About-Our-App .about-start p {
+
   text-transform: lowercase;
 }
 body #footer #container .footer-main {
@@ -266,11 +391,44 @@ body #footer #container .footer-main .footer-main-section p {
   color: var(--white, #fff);
   width: 334px;
   /* H7-16px (Paragraph Text) */
+
   font-family: Josefin Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+
+  color: #6c6c72;
+  padding: 18px 51px 40px;
+}
+body #About-Our-App .about-sides {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #About-Our-App .about-sides .about-left {
+  max-width: 238px;
+  max-height: 324px;
+}
+body #About-Our-App .about-sides .about-right {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 0 92px;
+  gap: 20px;
+}
+body #About-Our-App .about-sides .about-right .about-boxes-in {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  padding: 18px;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+body #About-Our-App .about-sides .about-right .about-boxes-in .about-boxes-text h3 {
+  color: #232233;
+  font-family: Josefin Sans;
+
 }
 body #footer #container .footer-main .footer-main-section .social ul {
   display: flex;
@@ -526,20 +684,72 @@ body #Our-reative-team #container .cards .card h4 {
 }
 body #Our-reative-team #container .cards .card h5 {
   color: #6c6c72;
+
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
   text-transform: uppercase;
 }
+
+body #About-Our-App .about-sides .about-right .about-boxes-in .about-boxes-text p {
+  color: #6c6c72;
+  font-family: Josefin Sans;
+
 body #Our-reative-team #container .cards .card p {
   color: #6c6c72;
   margin: 17px auto 41px auto;
   max-width: 326px;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
+
+@media only screen and (min-width: 768px) {
+  body header {
+    padding: 40px;
+  }
+  body header nav {
+    padding: 0;
+  }
+  body header nav .nav-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+  }
+  body header .hero {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body header .hero .offer {
+    width: 456px;
+    height: 358px;
+  }
+}
+body #About-Our-App {
+  padding: 40px;
+}
+body #About-Our-App .about-sides {
+  flex-direction: row;
+  gap: 60px;
+}
+@media only screen and (min-width: 1200px) {
+  body header nav .nav-bottom :nth-of-type(2),
+  body header nav .nav-bottom :nth-of-type(3),
+  body header nav .nav-bottom :nth-of-type(4),
+  body header nav .nav-bottom :nth-of-type(6),
+  body header nav .nav-bottom :nth-of-type(7) {
+    display: block;
+  }
+  body header nav .nav-bottom :nth-of-type(5) {
+    left: 0;
+  }
+  body header .hero {
+    justify-content: space-around;
+  }
+
 body #Our-reative-team #container .cards .card .icons {
   justify-content: center;
   display: flex;
@@ -847,6 +1057,7 @@ body #Our-Happy-Customers .carousel--progress-bar {
   background: rgba(255, 255, 255, 0.8);
   transform: scaleX(0);
   transform-origin: 0% 0%;
+
 }
 
 body * {
