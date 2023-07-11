@@ -1,14 +1,9 @@
-
-@mixin javohir{
-    
-}
-
 @mixin javohir {
   //  Download Appnow start
   #Download-AppNow {
     #container {
       overflow-x: hidden;
-      font-family: 'Josefin Sans';
+      font-family: "Josefin Sans";
       max-width: 1440px;
       // box-sizing: border-box;
       margin: 0 auto;
@@ -345,5 +340,3 @@
     }
   }
 }
-
-

@@ -1,6 +1,9 @@
 @mixin asqar {
   #App-features {
     background-image: url(../imgs/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     #container {
       h1 {
         color: var(--white, #fff);
@@ -212,8 +215,7 @@
       .footer-main-sectin-2 {
         position: absolute;
         border: 3px solid whitesmoke;
-        // top: -133px;
-        // left: 135px;
+        box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
         left: 50%;
         top: -40%;
         transform: translate(-50%, 60%);
