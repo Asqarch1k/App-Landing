@@ -276,6 +276,11 @@ body #footer #container .footer-main .footer-main-section .social ul {
   display: flex;
   gap: 30px;
 }
+@media screen and (min-width: 1200px) {
+  body #App-features #container h1 {
+    font-size: 25.25px;
+  }
+}
 
 body #Download-AppNow #container {
   overflow-x: hidden;
